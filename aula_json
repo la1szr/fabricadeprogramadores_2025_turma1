@@ -1,0 +1,20 @@
+import json
+dados_json = ' {"nome":"lais", "idade":16, "cidade":"santana de parnaiba" }'
+dados_python = json.loads(dados_json)
+print(dados_python["nome"])
+print(dados_python["idade"])
+print(dados_python["cidade"])
+
+
+pythonValue = {'cachorro' : True, 'porte' : 'pequeno', 'cor': 'caramelo', 'genero' : 'femea', 'cor dos olhos' : 'castanho', 'nome do pet' : 'paçoca', 'raça' : 'indefinida', 'tutor': 'Lais', 'idade': '4 meses' , 'brinquedo favorito': 'bolinha' }
+
+print(pythonValue["cachorro"])
+print(pythonValue["raça"])
+print(pythonValue["porte"])
+print(pythonValue["genero"])
+print(pythonValue["cor"])
+print(pythonValue["idade"])
+print(pythonValue["nome do pet"])
+print(pythonValue["cor dos olhos"])
+print(pythonValue['tutor'])
+print(pythonValue["brinquedo favorito"])
